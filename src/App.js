@@ -8,9 +8,13 @@ import About from "./components/About";
 import Universities from "./components/Universities";
 import GmatPrep from "./components/GmatPrep";
 import Testimonials from "./components/Testimonials";
+
+import Confettis from "./components/Confettis";
+
 function App() {
   return (
-    <div>
+    <div className="app">
+      <Confettis />
       <Header />
       <Home />
       <FreeTrial id="freetrail" />
