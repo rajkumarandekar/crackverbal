@@ -1,0 +1,181 @@
+
+
+
+.about-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+    height: 100vh;
+    margin-top: 500px;
+
+
+  }
+
+  .owners {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+
+  .about-a {
+    font-size: 34px;
+    color: blue;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .about-p {
+    font-size: 20px;
+    color: black;
+    width: 400px;
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 200px;
+  }
+
+  .about-co {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+  }
+
+  .arun-card,
+  .shree-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 0px;
+    border-color: aqua;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease;
+    position: relative;
+
+  }
+  .card-content {
+    position: relative;
+    z-index: 2;
+  }
+
+  .a-img {
+    background-size: cover;
+    width: 100%;
+    height: 340px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+  }
+
+  .a-head {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .a-para {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+.arun-card:hover .hover-content,
+.shree-card:hover .hover-content {
+  display: block;
+}
+
+.active-owner {
+  transform: translateX(0%);
+}
+
+.inactive-owner {
+  transform: translateX(100%);
+}
+
+.hover-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+
+
+ @media (max-width: 768px) {
+  .about-main {
+    margin-top: 2700px;
+
+  }
+
+  .about-p {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .about-co {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .arun-card,
+  .shree-card {
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+
+ @media (min-width: 769px) {
+  .about-main {
+
+    margin-top: 1710px;
+  }
+
+  .about-p {
+    width: 400px;
+    margin-left: 200px;
+    margin-right: 0;
+
+  }
+
+  .about-co {
+    height: 450px;
+    overflow: hidden;
+  }
+
+  .arun-card,
+  .shree-card {
+    max-width: 400px;
+    margin: 0;
+    margin-bottom: 0;
+  }
+}
+

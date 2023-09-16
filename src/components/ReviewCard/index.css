@@ -1,0 +1,101 @@
+
+.column {
+
+    margin-bottom: 10px;
+  }
+
+
+.box-card {
+    margin: 8px;
+    margin-left: 10px;
+
+    margin-bottom: 0px;
+    margin-top: 20px;
+
+  }
+
+.box-1 {
+    width: 320px;
+    background-color: aliceblue;
+    margin-top: 10px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border-style: solid;
+    border: 0 solid #e5e7eb;
+    border-width: 0px;
+    margin: 8px;
+    margin-left: 10px;
+
+
+  }
+
+
+
+  .para0 {
+    font-size: 16px;
+    color: #374151;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .box-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: -20px;
+  }
+
+  .conr {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-icon {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+  }
+
+  .name-h {
+    font-size: 22px;
+    font-weight: 600px;
+    margin-right: 120px;
+    margin-bottom: -2px;
+    color: #374151;
+    margin-left: 10px;
+  }
+
+  .para-h {
+    color: hsla(217, 19%, 37%, 1);
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .p-name {
+    width: 10px;
+    height: 10px;
+    margin-right: 22px;
+  }
+
+  .para-d {
+    color: hsla(217, 19%, 37%, 1);
+    margin-left: 10px;
+  }
+
+  .o {
+    width: 70px;
+    height: fit-content;
+    margin-bottom: 12px;
+    margin-left: -50px;
+  }
+
+  .stars{
+    color: gold;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding-left: 5px;
+  }
+

@@ -1,0 +1,176 @@
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: blue;
+	color: white;
+	padding: 20px;
+
+  }
+
+  .img-logo {
+	max-width: 130px;
+	height: auto;
+
+  }
+
+  .nav-links ul {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	gap: 20px;
+  }
+
+  .nav-links a {
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+
+
+  }
+
+
+  .nav-link {
+	display: inline-block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+
+	transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+
+  .nav-link:hover {
+	background-color: yellowgreen;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+
+
+
+
+.subscribe-button a {
+	display: inline-block;
+	background-color: #f78f20;
+	color: white;
+	border: none;
+	width: 100px;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 4px;
+	text-align: center;
+	text-decoration: none;
+  }
+
+
+  .subscribe-button a:hover {
+	background-color: #ffaa33;
+  }
+
+
+   .menu-icon {
+	display: none;
+	font-size: 24px;
+	margin: 10px;
+	cursor: pointer;
+
+  }
+
+
+  @media (max-width: 768px) {
+	.header {
+	  padding: 10px;
+	  flex-direction: column;
+	  background-color: orangered;
+	  width: auto;
+
+
+	}
+
+	.img-logo {
+	  max-width: 140px;
+	  margin-bottom: 10px;
+
+	}
+
+	.menu-icon {
+	  display: block;
+
+	}
+
+	.nav-links {
+	  display: none;
+	  transition: max-height 0.3s ease-in-out;
+	  overflow: hidden;
+
+	}
+
+	.nav-links.open {
+	  display: block;
+	  max-height: 500px;
+	}
+
+	.nav-links ul {
+	  flex-direction: column;
+	}
+
+	.nav-links li {
+	  margin-bottom: 10px;
+	}
+
+	.subscribe-button {
+	  margin-top: 10px;
+	  align-items: flex-end;
+
+	}
+  }
+
+   @media (min-width: 481px) and (max-width: 768px) {
+	.nav-links ul {
+	  flex-direction: column;
+	}
+
+	.nav-links li {
+	  margin-bottom: 10px;
+	}
+
+	.subscribe-button {
+	  margin-top: 10px;
+	}
+  }
+
+  @media (min-width: 769px) {
+	.nav-links ul {
+	  gap: 20px;
+	  flex-direction: row;
+	  display: flex;
+	  justify-content: flex-end;
+
+	}
+
+	.nav-links li {
+	  margin-bottom: 0;
+	}
+
+	.subscribe-button {
+	  margin-top: 0;
+	}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
