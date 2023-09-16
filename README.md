@@ -10,7 +10,7 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
+ Deployed LINK ------ https://crackverbal-zlue.vercel.app/
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
@@ -68,3 +68,69 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## About
+
+Provide a brief overview of your project, its goals, and its purpose. You can also mention any relevant links or references.
+
+## Getting Started
+
+Explain how to get a copy of your project up and running on a local machine. Include prerequisites and installation instructions.
+
+### Prerequisites
+
+List any software, tools, or dependencies that users need to have installed before they can use your project.
+
+### Installation
+
+Step-by-step instructions on how to install and set up your project locally.
+
+## Components
+
+List the components of your React project with brief descriptions:
+
+### Header
+
+Description of the header component.
+
+### Home
+
+Description of the home component.
+
+### Free Trial
+
+Description of the free trial component.
+
+### GMAT Prep
+
+Description of the GMAT prep component.
+
+### About
+
+Description of the about component.
+
+### Universities
+
+Description of the universities component.
+
+### Testimonials
+
+Description of the testimonials component.
+
+### Subscribe
+
+Description of the subscribe component.
+
+### Footer
+
+Description of the footer component.
+
+## Usage
+
+Provide examples of how to use your components or any code snippets that demonstrate their usage.
+
+## Contributing
+
+Explain how others can contribute to your project. Include guidelines for submitting issues and pull requests.
+
+ DEPLYED LINK https://crackverbal-zlue.vercel.app/
